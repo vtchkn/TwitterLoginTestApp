@@ -1,0 +1,16 @@
+# TwitterLoginTestApp Authorization completed with an error
+                                                                       com.twitter.sdk.android.core.TwitterAuthException: Authorize failed.
+                                                                           at com.twitter.sdk.android.core.identity.AuthHandler.handleOnActivityResult(AuthHandler.java:98)
+                                                                           at com.twitter.sdk.android.core.identity.TwitterAuthClient.onActivityResult(TwitterAuthClient.java:143)
+                                                                           at com.evetochkin.myapplication.MainActivity.onActivityResult(MainActivity.java:100)
+                                                                           at android.app.Activity.dispatchActivityResult(Activity.java:6931)
+                                                                           at android.app.ActivityThread.deliverResults(ActivityThread.java:4090)
+                                                                           at android.app.ActivityThread.handleSendResult(ActivityThread.java:4137)
+                                                                           at android.app.ActivityThread.-wrap20(ActivityThread.java)
+                                                                           at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1529)
+                                                                           at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                                           at android.os.Looper.loop(Looper.java:154)
+                                                                           at android.app.ActivityThread.main(ActivityThread.java:6123)
+                                                                           at java.lang.reflect.Method.invoke(Native Method)
+                                                                           at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:867)
+                                                                           at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:757)
